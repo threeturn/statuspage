@@ -3,7 +3,7 @@
 const production = process.env.NODE_ENV === "production";
 
 const nextConfig = {
-  assetPrefix: production ? '/' : '',
+  assetPrefix: production ? '/statuspage' : '',
   reactStrictMode: true,
   swcMinify: true,
 }
