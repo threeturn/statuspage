@@ -12,7 +12,7 @@ module.exports = {
         current: 'currentColor',
         'white': '#ffffff',
         "light-purple": '#58469b',
-        'purple': '#2c244e',
+        'purple': '#3a0e2e',
         'midnight': '#121063',
         'metal': '#565584',
         'tahiti': '#3ab7bf',
