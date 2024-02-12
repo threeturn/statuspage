@@ -34,7 +34,7 @@ const ServiceItem: FunctionComponent<ServiceItemProps> = ({ item }) => {
 
     const calculateUpTime = () => {
         let successCount = item.logs.filter((item)=> item.status === Status.OPERATIONAL).length
-        return Math.round((successCount * 100) / 90);
+        return Math.round((successCount * 100) / 60);
     }
 
     return (
